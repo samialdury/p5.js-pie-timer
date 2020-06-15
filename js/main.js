@@ -8,14 +8,14 @@ let timer = "";
 
 // Seconds to min:sec
 function convertSeconds(s) {
-	let min = floor(s / 60);
+  let min = floor(s / 60);
   let sec = s % 60;
-	return nf(min, 2) + ':' + nf(sec, 2);
+  return nf(min, 2) + ':' + nf(sec, 2);
 }
 
 // Set value of text
 function timerText(text) {
-	timer = text;
+  timer = text;
 }
 
 // Pause the timer
